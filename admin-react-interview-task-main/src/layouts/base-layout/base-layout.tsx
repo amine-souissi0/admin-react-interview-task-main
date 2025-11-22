@@ -1,4 +1,4 @@
-import { HomeOutlined, UserOutlined } from '@ant-design/icons'
+import { HomeOutlined, UserOutlined, TeamOutlined } from '@ant-design/icons'
 import { Link, useRouterState } from '@tanstack/react-router'
 import { Layout, Menu } from 'antd'
 import React from 'react'
@@ -15,8 +15,13 @@ const BaseLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     () => [
       {
         key: '/',
-        label: <Link to="/">Dashboard</Link>,
+        label: <Link to="/">Home</Link>,
         icon: <HomeOutlined />,
+      },
+      {
+        key: '/users/list',
+        label: <Link to="/users/list">Users list</Link>,
+        icon: <TeamOutlined />,
       },
     ],
     [],

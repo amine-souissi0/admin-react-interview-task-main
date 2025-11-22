@@ -1,9 +1,35 @@
 {
   "dashboard": {
     "title": "Dashboard",
-    "description": "Welcome to your dashboard!"
+    "welcome": "Welcome to UserManager",
+    "totalUsers": "Total users",
+    "totalUsersDesc": "Total registered accounts.",
+    "activeUsers": "Active users",
+    "activeUsersDesc": "Total active account.",
+    "inactiveUsers": "Inactive users",
+    "inactiveUsersDesc": "Total inactive account.",
+    "lastActiveUsers": "Last active users",
+    "allUsers": "All users",
+    "loading": "Loading...",
+    "error": "Failed to load dashboard data. Please try again later."
   },
   "usersList": {
-    "title": "Users List"
+    "title": "Users List",
+    "filterByStatus": "Filter by status",
+    "all": "All",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "status": "Status",
+      "address": "Address",
+      "balance": "Account Balance",
+      "createdAt": "Date of Creation"
+    },
+    "noUsers": "No users found",
+    "loading": "Loading users...",
+    "error": "Failed to load users. Please try again later."
   }
 }
